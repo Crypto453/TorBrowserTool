@@ -1,0 +1,16 @@
+import os
+import colorama
+from colorama import Fore
+from time import sleep
+
+banner_banner = ("""
+#######               ######                                            
+   #     ####  #####  #     # #####   ####  #    #  ####  ###### #####  
+   #    #    # #    # #     # #    # #    # #    # #      #      #    # 
+   #    #    # #    # ######  #    # #    # #    #  ####  #####  #    # 
+   #    #    # #####  #     # #####  #    # # ## #      # #      #####  
+   #    #    # #   #  #     # #   #  #    # ##  ## #    # #      #   #  
+   #     ####  #    # ######  #    #  ####  #    #  ####  ###### #    #                             
+""")
+print(Fore.MAGENTA	 + banner_banner)
+sleep(1)
